@@ -1,0 +1,564 @@
+ <!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <meta charset="utf-8" /> <title>
+	Blockchain Terminology - A Glossary for Beginners | Blockchain | CompTIA
+</title> <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.0, minimum-scale=1.0" user-scaleable="yes" /> <meta name="referrer" content="always" /> <link rel="preload" href="/ResourcePackages/MainSite/assets/dist/fonts/Gotham-Light.otf" as="font" type="font/otf" crossorigin> <script src="/scripts/jquery.min.js" type="text/javascript"></script><script src="/scripts/jquery.validate.min.js" type="text/javascript"></script><script src="/scripts/jquery.validate.unobtrusive.min.js" type="text/javascript"></script><script src="/client scripts/mvcfoolproof.unobtrusive.js" type="text/javascript"></script><script src="/Scripts/js-cookie/js.cookie-2.2.0.min.js" type="text/javascript"></script><script src="/resourcepackages/mainsite/assets/dist/js/project.min.js?v=3.6.8" type="text/javascript"></script><link href="/resourcepackages/mainsite/assets/dist/css/main.min.css?v=3.6.8" rel="stylesheet" type="text/css" /> <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4e3a272dd369e0" type="text/javascript"></script> <script src="https://kit.fontawesome.com/df896256a0.js" crossorigin="anonymous"></script> <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet"> <!-- idio Analytics Tracking Code --> <script type="text/javascript">
+        // Set client and delivery
+
+        _iaq = [
+            ['client', '5d23cdc951f74144b35946c0c4de3efe'],
+            ['delivery', 1062],
+            ['track', 'consume']
+        ];
+
+        // Include the Idio Analytics JavaScript
+        !function (d, s) { var ia = d.createElement(s); ia.async = 1, s = d.getElementsByTagName(s)[0], ia.src = '//s.usea01.idio.episerver.net/ia.js', s.parentNode.insertBefore(ia, s) }(document, 'script');
+    </script> <!-- / idio Analytics Tracking Code --> <meta property="og:title" content="Blockchain Terminology - A Glossary for Beginners | Blockchain | CompTIA" /><meta property="og:description" content="Learn the basic terminology for blockchain technology. From Address to Zeppelin, here’s the entire list of terms beginners need to know." /><meta property="og:url" content="http://connect.comptia.org/content/articles/blockchain-terminology" /><meta property="og:type" content="website" /><meta property="og:site_name" content="Default" /><meta name="Generator" content="Sitefinity 13.1.7425.0 OME" /><link rel="canonical" href="https://connect.comptia.org/content/articles/blockchain-terminology" /><meta property="og:image" content="https://comptiacdn.azureedge.net/webcontent/images/default-source/mainsitetemplateimages/comptia_logo_white.png?sfvrsn=df1edab8_2" /><meta name="description" content="Learn the basic terminology for blockchain technology. From Address to Zeppelin, here’s the entire list of terms beginners need to know." /></head> <body lang="en">  <!-- Google Tag Manager --> <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M53PKPD');</script> <!-- End Google Tag Manager --> <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id="></script> <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '', {
+        send_page_view: false
+    });
+</script> <!-- Google Tag Manager (noscript) --> <noscript> <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M53PKPD"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe> </noscript> <!-- End Google Tag Manager (noscript) --> <!-- OneTrust Cookies Consent Notice start for comptia.org --> <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="d3d66ac2-27bc-4963-9709-689280baad0b"></script> <script type="text/javascript">
+        function OptanonWrapper() { }
+    </script> <!-- OneTrust Cookies Consent Notice end for comptia.org --> <!-- Pull the Wootric Snippet --> <script type="text/javascript" src="https://cdn.wootric.com/wootric-sdk.js"></script> <!-- begin Wootric code --> <script type="text/javascript">
+    window.wootricSettings = {
+        created_at: Math.floor(Date.now() / 1000),
+        account_token: 'NPS-88f9d834'
+    };
+    // Request a survey
+    window.wootric('run');
+</script> <!-- end Wootric code --> 
+
+
+ <section class="header-container"> <header class="container header"> 
+<a id="top" name="#top"></a>
+
+<script type="text/javascript">
+    //Determine how much padding is needed for the nav.  1170px - window width
+    $(document).ready(function () {
+        var width = jQuery(window).width();
+        var navTotal = width - 1140;
+        var navPadding = navTotal / 2;
+
+        $('.cd-secondary-nav').attr('style', 'padding: 3rem ' + navPadding + 'px; margin-right: -' + (navPadding + 30) + 'px;');
+    });
+</script>
+
+<div class="cd-main-header">
+    <a href="/home" class="cd-logo">
+        <img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/membership-new/comptia_logo_cmyk.svg?sfvrsn=ea7bbe62_2" alt="CompTIA" title="CompTIA" class="toplogo">
+    </a>
+
+    <ul class="cd-header-buttons">
+        <li class="above-nav hideOnMobile hideOnTablet">
+            <a id="tn_join" href="https://www.comptia.org/">
+                Certifications
+            </a>
+        </li>
+        <li><a id="tn_search" class="cd-search-trigger" href="#cd-search">Search<span></span></a></li>
+        <li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+        <li>
+            <a id="tn_myaccount" class="my-account hideOnMobile hideOnTablet" href="https://my.comptia.org">
+Login
+            </a>
+        </li>
+        <li>
+            <a id="tn_store" class="store hideOnMobile hideOnTablet" href="/join-now">
+                Join Now
+            </a>
+        </li>
+    </ul>
+</div>
+
+<main class="cd-main-content"></main>
+
+<div class="cd-overlay"></div>
+
+<nav class="cd-nav">
+    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+
+        <!-- Connect -->
+        <li class="has-children">
+            <a href="/connect" aria-haspopup="true">Connect<span></span></a>
+
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Menu<span></span></a></li>
+                <li class="see-all"><a href="/connect">Connect</a></li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/connect/communities">Communities</a></span>
+
+                    <ul class="is-hidden">
+                        <li><a href="/connect/communities/anz-community">ANZ Community</a></li>
+                        <li><a href="/connect/communities/benelux-business-technology-community">Benelux Community</a></li>
+                        <li><a href="/connect/communities/dach-community">DACH Community</a></li>
+                        <li><a href="/connect/communities/north-america-community">North America Community</a></li>
+                        <li><a href="/connect/communities/uk-ireland-community">UK & Ireland Community</a></li>
+                        <li></li>
+                    </ul>
+
+                    <span class="nav-heading"><a href="/membership/comptia-isao">CompTIA ISAO</a></span>
+                    <ul class="is-hidden">
+                        <li><a href="https://forum.comptiaisao.org/">Cyber Forum</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/connect/councils">Advisory Councils</a></span>
+
+                    <ul class="is-hidden">
+                        <li><a href="/connect/advisory-councils/artificial-intelligence-advisory-council">Artificial Intelligence</a></li>
+                        <li><a href="/connect/advisory-councils/blockchain-advisory-council">Blockchain and Web3</a></li>
+                        <li><a href="/connect/advisory-councils/baac-council">SaaS Ecosystem</a></li>
+                        <li><a href="/connect/advisory-councils/channel-development-advisory-council">Channel Development</a></li>
+                        <li><a href="/connect/advisory-councils/cybersecurity-advisory-council">Cybersecurity</a></li>
+                        <li><a href="/connect/advisory-councils/iot-advisory-council">IoT</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children third">
+
+                    <span class="nav-heading"><a href="/connect/technology-interest-groups">Tech Interest Groups</a></span>
+                    <ul class="is-hidden">
+                        <li><a href="/connect/technology-interest-groups/advancing-women-in-technology-interest-group">Advancing Women in Technology</a></li>
+                        <li><a href="/connect/technology-interest-groups/artificial-intelligence-technology-interest-group">Artificial Intelligence</a></li>
+                        <li><a href="/connect/technology-interest-groups/blockchain-technology-interest-group">Blockchain</a></li>
+                        <li><a href="/connect/technology-interest-groups/drone-technology-interest-group">Drone</a></li>
+                        <li><a href="/connect/technology-interest-groups/iot-technology-interest-group">IoT</a></li>
+                    </ul>
+
+                    <span class="nav-heading"><a href="/connect/public-sector">Public Sector Councils</a></span>
+                </li>
+
+            </ul>
+        </li>
+
+        <!-- Membership -->
+        <li class="has-children">
+            <a href="/membership" aria-haspopup="true">Membership<span></span></a>
+
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Menu<span></span></a></li>
+                <li class="see-all"><a href="/membership">Membership</a></li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/membership/corporate">Company Membership</a></span>
+                    <ul class="is-hidden">
+                        <li><a href="/membership/corporate/benefits">Benefits</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/membership/comptia-isao">CompTIA ISAO</a></span>
+
+                    <ul class="is-hidden">
+                        
+                        <li><a href="/membership/comptia-isao/benefits">Benefits</a></li>
+                        
+                    </ul>
+                </li>
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/membership/registered-users">Registered Users</a></span>
+                    <ul class="is-hidden">
+                        <li><a href="/membership/registered-users/benefits">Benefits</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </li>
+
+        <!-- Resources -->
+        <li class="has-children">
+            <a href="/resources" aria-haspopup="true">Resources<span></span></a>
+
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Menu<span></span></a></li>
+                <li class="see-all"><a href="/resources">Resources</a></li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/resources">Domains</a></span>
+
+                    <ul class="is-hidden">
+                        <li><a href="/resources/cybersecurity">Cybersecurity</a></li>
+                        <li><a href="/resources/government-and-technology">Government & Technology</a></li>
+                        <li><a href="/resources/industry-trends">Industry Trends</a></li>
+                        <li><a href="/resources/it-workforce-diversity">IT Workforce & Diversity</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/resources">&nbsp;</a></span>
+
+                    <ul class="is-hidden">
+                        <li><a href="/resources/managed-services">Managed Services</a></li>
+                        <li><a href="/resources/managing-your-business">Managing Your Business</a></li>
+                        <li><a href="/resources/technology-solutions">Technology Solutions</a></li>
+                        <li><a href="/resources/view-all">View All</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children third">
+                    <span class="nav-heading"><a href="/blog">CompTIA Blog</a></span>
+                    <span class="nav-heading"><a href="/resources/comptia-world">CompTIA World</a></span>
+                    <span class="nav-heading"><a href="/resources/podcasts">Podcasts</a></span>
+                    <span class="nav-heading"><a href="/resources/use-case-library">Use Case Library</a></span>
+                    <span class="nav-heading"><a href="/quickview">CompTIA Quick Stats</a></span>
+                </li>
+            </ul>
+
+        </li>
+
+        <!-- Events -->
+        <li class="has-children">
+            <a href="/events" aria-haspopup="true">
+                Events & Education<span></span>
+            </a>
+
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Menu<span></span></a></li>
+                <li class="see-all"><a href="/events">Events</a></li>
+
+                <li class="has-children quarter">
+                    <span class="nav-heading"><a href="/events/all-events/">Events</a></span>
+
+                    <ul class="is-hidden">
+                        <li><a href="/events/all-events/">All Events</a></li>
+                        <li><a href="/ccf">Communities &amp; Councils Forum</a></li>
+                        <li><a href="/partnersummit">Partner Summit</a></li>
+                        <li><a href="/channelcon">ChannelCon</a></li>
+                        <li><a href="/emea">EMEA Member & Partner Conference</a></li>
+                        <li><a href="/events/archives/">Event Archives</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children quarter">
+                    <span class="nav-heading"><a href="/events/webinars/">Upcoming Webinars</a></span>
+                        
+                    <ul class="is-hidden">
+                        <li><a href="/events/webinars/on-demand">On-Demand Webinars</a></li>
+                    </ul>
+                </li>
+
+                <li class="has-children quarter">
+                    <span class="nav-heading"><a href="/events/channel-training/">Industry Education</a></span>
+                   <!-- <span class="nav-heading"><a href="/events/industry-events/">Industry Events</a></span> -->
+                </li>
+
+                <li class="has-children quarter">
+                   <div style="padding-top: 50px; padding-bottom: 0;">
+          <a href="/channelcon" style="height: auto;">
+                     <img style="border: medium none; width: 100%;" src="https://comptiacdn.azureedge.net/webcontent/images/default-source/events/channelcon-banner-2023-banner.jpg?sfvrsn=2b2ffd60_2" data-displaymode="Original" alt="channelcon 2023" title="channelcon 2023">  </a>
+
+</div>
+                </li>
+            </ul>
+        </li>
+
+        <!-- Newsroom -->
+        <li class="has-children">
+            <a href="/newsroom" aria-haspopup="true">
+                Newsroom<span></span>
+            </a>
+
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Menu<span></span></a></li>
+                <li class="see-all"><a href="/newsroom">Newsroom</a></li>
+
+                <li class="has-children half">
+                    <span class="nav-heading"><a href="/newsroom/press-releases">Press Releases</a></span>
+                    <span class="nav-heading"><a href="/newsroom/in-the-news">CompTIA In the News</a></span>
+                    <span class="nav-heading"><a href="/newsroom/subscribe-to-comptia-news">Subscribe to CompTIA News</a></span>
+                </li>
+
+                <li class="has-children half">
+                    <span class="nav-heading"><a href="/newsroom/media-library">Media Library</a></span>
+                    <span class="nav-heading"><a href="/newsroom/comptia-world-media-kit">CompTIA World Media Kit</a></span>
+                </li>
+            </ul>
+
+        </li>
+
+        <!-- About Us -->
+        <li class="has-children">
+            <a href="/about-us" aria-haspopup="true">
+                About Us<span></span>
+            </a>
+
+            <ul class="cd-secondary-nav is-hidden">
+                <li class="go-back"><a href="#0">Menu<span></span></a></li>
+                <li class="see-all"><a href="/about-us">About Us</a></li>
+
+                <li class="has-children third">
+                    <ul class="is-hidden one-col">
+                        <li>
+                            <a href="/about-us/our-story" class="nav-heading">Our Story</a>
+
+                            <ul class="is-hidden d-visible one-col force-mobile">
+                                <li><a href="/membership">Membership</a></li>
+                                <li><a href="/content/lp/we-are-comptia/">We are the CompTIA Community</a></li>
+                                <li><a target="_blank" href="https://www.comptia.org/">Certifications</a></li>
+                                <li><a target="_blank" href="https://www.comptiaspark.org">CompTIA Spark</a></li>
+                                <li><a target="_blank" href="https://www.comptiatech.org">CompTIA Tech Career Academy</a></li>
+                                <li><a target="_blank" href="https://partners.comptia.org">Authorized Partner Program</a></li>
+                            </ul>
+
+                            <span class="nav-heading">Future of Learning</span>
+                            <ul class="is-hidden d-visible one-col force-mobile">
+                                <li><a href="/connect/the-future-of-learning-think-tank">Think Tank</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="has-children third">
+                    <ul class="is-hidden one-col">
+                        <li><a href="/about-us/board-of-directors" class="nav-heading">Board of Directors</a></li>
+                        <li><a href="/about-us/comptia-executive-staff" class="nav-heading">Executive Staff</a></li>
+                        <li><a href="/about-us/careers" class="nav-heading">CompTIA Careers</a></li>
+                        <li><a href="/about-us/media-industry-partners" class="nav-heading">Media and Partners</a></li>
+                        <li><a href="/it-hall-of-fame/" class="nav-heading">IT Hall of Fame</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="has-children third">
+                    <ul class="is-hidden one-col">
+                        <li>
+                            <a href="/about-us/membership-recognition" class="nav-heading">Member Recognition</a>
+
+                            <ul class="is-hidden d-visible one-col force-mobile">
+                                <li><a href="/about-us/membership-recognition/comptia-member-of-the-year-award">Member of the Year</a></li>
+                                <li><a href="/about-us/membership-recognition/comptia-spotlight">Spotlight Award</a></li>
+                                <li><a href="/about-us/membership-recognition/comptia-channelpro-cecilia-galvin-scholarship">CompTIA ChannelPro Cecilia Galvin Scholarship</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li class="hideOnDesktop sub"><a href="/contact-us">Contact Us</a></li>
+        <li class="hideOnDesktop sub"><a href="https://help.comptia.org/hc/en-us/categories/115001121563">Help</a></li>
+        <li class="hideOnDesktop sub"><a href="https://my.comptia.org">Login</a></li>
+        <li class="hideOnDesktop sub"><a href="/join-now">Join Now</a></li>
+    </ul>
+</nav>
+
+<div id="cd-search" class="cd-search">
+    <form action="/search" method="post" id="searchForm">
+        <input type="text" id="query" name="query" />
+        <input type="image" src="https://comptiacdn.azureedge.net/webcontent/images/default-source/mainsitetemplateimages/search.png?sfvrsn=64725786_2" class="ibSearch" />
+    </form>
+</div> </header> </section> <section class="body-container white"> <div class="container"> <div class="row"> <div class="col-md-12"> <div class="detailbreadcrumbs"> 
+<div>
+    <ul class="sf-breadscrumb breadcrumb">
+                <li><a href="/">Home </a></li>
+                <li><a href="/content">Content </a></li>
+                <li class="active">Blockchain Terminology : A Glossary for Beginners</li>
+    </ul>
+</div> </div> </div> </div> <div class="row"> <div class="col-md-9" id="Content"> 
+
+<h1>Blockchain Terminology: A Glossary for Beginners</h1><p><img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/membership/blockchain-advisory-council.jpg?sfvrsn=79c51935_4" alt="blockchain advisory council" title="blockchain-advisory-council" data-displaymode="Original" style="float:right;padding-left:20px;" width="40%" />Learn the basic terminology for blockchain technology. From Address to Zeppelin&mdash;and everything in between&mdash;here&rsquo;s the entire list of terms beginners
+    need to know. Created by <a href="/connect/advisory-councils/blockchain-advisory-council">CompTIA&rsquo;s Blockchain Advisory Council</a>, the glossary is
+    designed to raise blockchain awareness by giving prospective users and customers a better understanding of the technology, its history and use cases in the market.</p>
+<table class="basictable k-table"><tbody><tr><th>Term
+ </th><th>Definition
+ </th></tr><tr><td>51% Attack</td><td>When more than 50% of the miners in a blockchain launch an attack on the rest of the nodes/users to attempt to steal assets or double spend.</td></tr><tr><td>Address</td><td>Much like a URL, a blockchain address is the location to or from which transactions occur on the blockchain.</td></tr><tr><td>Alt-coin</td><td>Any coin or token other than Bitcoin.</td></tr><tr><td>Attestation Ledger</td><td>A register or account book created for the purpose of providing support/evidence of individual transactions. Normally, an attestation ledger is used to verify that a transaction has been carried out, or to verify the authenticity of products
+                or transactions.</td></tr><tr><td>Bitcoin</td><td>The first and most popular cyptocurrency based on DLT technology developed from a whitepaper written by Satoshi Nakamoto in 2008.</td></tr><tr><td>Block</td><td>A group of transactions entered into a blockchain; analogous to a page of a ledger or record book.</td></tr><tr><td>Blockchain</td><td>A mathematical structure for storing digital transactions or data in an immutable, distributed, decentralized digital ledger consisting of blocks that are linked via cryptographic signature that is nearly impossible to fake, hack or disrupt.</td></tr><tr><td>Blockchain (Private a.k.a. Permissioned)</td><td>A blockchain that resides on a private network of computers that is only accessible to those with permission.</td></tr><tr><td>Blockchain (Public a.ka. Permissionless)</td><td>A blockchain that resides on a network of computers around the world that is accessible to everyone.</td></tr><tr><td>Byzantine Fault Tolerance (BFT)</td><td>A property of a distributed, decentralized system to resist complete failure even when some of the nodes fail or act maliciously.</td></tr><tr><td>Centralized</td><td>A system or process for which there is a singular (i.e., central) source of authority, control and/or truth.</td></tr><tr><td>Chain of Custody</td><td>The entire chain of documentation of ownership of a product during its lifecycle from raw materials to the final end user.</td></tr><tr><td>Chaincode</td><td>Another name for a smart contract.</td></tr><tr><td>Consensus Mechanism - Proof of Authority (PoA)</td><td>PoA is an alternative form to the PoS algorithm. Instead of staking cryptocurrency (wealth), in PoA you stake your identity. This means voluntarily disclosing who you are in exchange for the right to validate blocks. Any malicious actions
+                you undertake as a validator will reflect back on your identity. PoA blockchains require a thorough form of KYC (Know Your Customer - a verification process that determines you actually are who you claim to be).</td></tr><tr><td>Consensus Mechanism - Proof of Burn (PoB)</td><td>PoB allows the miners to &ldquo;burn&rdquo; or destroy cryptocurrency which grants them the right to add blocks in proportion to the coins destroyed. Essentially, miners burn coins/tokens to buy virtual mining rigs that give them the power
+                to mine blocks. The more currency burned by the miner, the bigger the ensuing virtual mining rig. To burn, miners send currency to a verifiably un-spendable address. This process does not consume many resources, thus PoB is often called
+                PoW without energy waste. Depending upon the implementation, miners are allowed to burn the native currency or the currency of an alternative chain, and in exchange, they receive a reward in the native currency of the blockchain.</td></tr><tr><td>Consensus Mechanism - Proof of Capacity (PoC)</td><td>PoC allows the mining devices in the network to use their available hard drive space to decide the mining rights, instead of using the mining device&rsquo;s computing power (as in PoW) or the miner&rsquo;s stake in the cryptocurrency (as in
+                PoS).</td></tr><tr><td>Consensus Mechanism - Proof of Stake (PoS)</td><td>In PoS, miners put up(i.e., "stake") some of the blockchain's cryptocurrency (e.g., ether for the Ethereum blockchain) in order to increase their chances of being selected to validate a block. The stake is locked up as a deposit to ensure
+                the miner validates the block according to the rules. If the miner violates the rules, the deposit will be "burned" or destroyed. PoS is less resource intensive than PoW since fewer miners are racing to solve the mathematical formula.</td></tr><tr><td>Consensus Mechanism - Proof of Work (PoW)</td><td>In PoW, transaction data (block) + a random strings of digits (nonce of block) are repeatedly applied to a (hashing) mathematical formula by miners, until a desirable outcome is found (the proof of work). Other miners then verify the proof
+                of work by taking the alleged input string and applying it to the same formulae to see if the outcome is indeed that what was presented. If the results are the same, the transaction is verified and added to the blockchain. As many miners
+                are racing to solve the formula which requires a great deal of computing power, PoW is resource intensive.</td></tr><tr><td>Consensus Mechanism (a.k.a. Consensus Protocol)</td><td>The process used to validate a transaction across a distributed blockchain network designed to achieve Byzantine Fault Tolerance.</td></tr><tr><td>Cryptocurrency</td><td>Digital money which uses encryption and consensus algorithms to regulate the generation of coins/tokens and transfer of funds. Cryptocurrencies are generally decentralized, operating independently of central authorities.</td></tr><tr><td>Cryptography</td><td>The science of securing communication using individualized codes so only the participating parties can read the messages.</td></tr><tr><td>DAO (Decentralized Autonomous Organization)</td><td>A governance structure without a central authority which rewards good behavior and penalizes bad behavior by a set of pre-defined rules which can only be changes by a vote, which typically requires a stake, adding risk to the process to discourage
+                bad actors, amongst the participants.</td></tr><tr><td>DApp</td><td>Software which does not rely on a central system or database but can share information amongst its users via a decentralized database, such as a blockchain</td></tr><tr><td>Decentralization/Decentralized</td><td>A system with no single point where the decision is made. Every node makes a decision for its own behavior and the resulting system behavior is the aggregate response.</td></tr><tr><td>Digital Identity (a.k.a. Self-Sovereign Identity)</td><td>The network or Internet equivalent to the real identity of a person or entity (like a business or government agency). Advocates of blockchain-based digital identity is to return ownership and control of personal information to the individuals.
+                In any given transaction, personal information is not disclosed, but rather the information required by one party is verified by the digital identity application.</td></tr><tr><td>Digital Signature</td><td>A mathematical scheme for verifying digital messages or documents satisfy two requirements - they have authenticity (from a known sender) and integrity (were not altered in transit.</td></tr><tr><td>Digital Signature - Multi-signature</td><td>In order to increase security, mutisig addresses require more than one digital signature (and therefore multiple keys) to sign a transaction or message.</td></tr><tr><td>Digital Signature - Ring</td><td>A digital signature that can be performed by any of a group of people that each have keys. A property of a ring signature is that it is impossible to determine which of the group signed the transaction.</td></tr><tr><td>Distributed</td><td>As opposed to decentralized, a distributed system shares processing and/or data across multiple nodes, but the decisions may still be centralized and use complete system knowledge.</td></tr><tr><td>Distributed Ledger Technology (DLT)</td><td>The larger class of technology of which blockchain is a subset. A digital system for recording the transaction of assets in which the transactions and their details are recorded in multiple identical copies at the same time with no central
+                data store or administration.</td></tr><tr><td>Double Spending</td><td>A unique problem to cryptocurrency where the same coins or tokens are spent or traded twice.</td></tr><tr><td>Ethereum</td><td>A public blockchain that supports smart contracts.</td></tr><tr><td>Fiat</td><td>Legal tender the value for which is backed by a government or governmental body (e.g., US dollars, Euros)</td></tr><tr><td>Fork</td><td>A collectively agreed upon software update by all nodes in a distributed network. Sometimes, the previous version continues in parallel with the new version.</td></tr><tr><td>Fungible</td><td>The property an item of being exchangeable with other like items. For example, USD and Euros are fungible. The value of USD can be expressed in Euros.</td></tr><tr><td>Gas</td><td>A fee charged to write a transaction to a public blockchain. The gas is used to reward the miner which validates the transaction.</td></tr><tr><td>Genesis Block&nbsp;</td><td>The first or first few blocks of a blockchain</td></tr><tr><td>Governance</td><td>Establishment of policies and continuous monitoring of their proper implementation of an organization or system.</td></tr><tr><td>Hash Function</td><td>A function that receives an input of any size and returns a unique string of a uniform length.</td></tr><tr><td>Hyperledger Fabric</td><td>IBM's private (permissioned) blockchain toolset.</td></tr><tr><td>Identity</td><td>The information on an entity used by computer systems to uniquely represent a person, organization, application, or device.</td></tr><tr><td>Immutable/Immutability</td><td>The property of being unchangeable. Once a transaction has been added to a block and written to a blockchain, it cannot be changed and therefore is immutable.</td></tr><tr><td>Initial Coin Offering (ICO)</td><td>The first sale of a blockchain coin or token.</td></tr><tr><td>Interoperability</td><td>The ability of two or more systems to communicate and exchange data. Due to various design decisions (e.g., consensus protocol) most blockchains are not interoperable, however there are many projects that are working to connect various blockchains.</td></tr><tr><td>IPFS (Interplanetary File System)</td><td>A peer-to-peer hypermedia protocol for storing and sharing data in a distributed file system using content-addressing to uniquely identify each file in a global namespace connecting all computing devices.</td></tr><tr><td>Know Your Customer (KYC)</td><td>The legal process of a business identifying and verifying the identity of its clients. KYC requirements vary from jurisdiction to jurisdiction.</td></tr><tr><td>Liquidity</td><td>The ease of converting an asset (or, in this case, cryptocurrency) to cash (fiat).</td></tr><tr><td>Mainnet</td><td>The production version of a blockchain.</td></tr><tr><td>Merkle Tree/Hash Tree</td><td>In cryptography and computer science, a Merkle or hash tree is a tree in which every leaf node is labelled with the hash of a data block, and every non-leaf node is labelled with the cryptographic hash of the labels of its child nodes.</td></tr><tr><td>Mining</td><td>In a public blockchain, the process of verifying a transaction and writing it to the blockchain for which the successful miner is rewarded in the cryptocurrency of the blockchain.</td></tr><tr><td>Node</td><td>A computer which holds a copy of the blockchain ledger.</td></tr><tr><td>Non-Fungible</td><td>The property an item of not being exchangeable with other like items. For example, USD and Euros are fungible. For example, a Stratovarius violin is non-fungible because the value of it cannot be expressed in a number of other violins.</td></tr><tr><td>Off-chain</td><td>Data stored external to the blockchain.</td></tr><tr><td>On-chain</td><td>Data stored within the blockchain.</td></tr><tr><td>Open Source</td><td>Software products that include permission to use, enhance, reuse or modify the source code, design documents, or content of the product.</td></tr><tr><td>Oracle</td><td>An application that connects blockchain applications to legacy applications.</td></tr><tr><td>Peer-to-Peer (P2P)</td><td>A direct connection between two participants in a system - can be computer to computer or person to person.</td></tr><tr><td>Provenance</td><td>The entire history of a product during its lifecycle including its chain of custody and all documentation of value added services and activities which were used to produce that product or service.</td></tr><tr><td>Public/Private Key</td><td>A public key is a unique string of characters derived from a private key which is used to encrypt a message or data. The private key is used to decrypt the message or data.</td></tr><tr><td>Satoshi Nakamoto</td><td>The name used by the person or entity who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. As part of the implementation, Nakamoto also devised the first blockchain
+                database.</td></tr><tr><td>Seed Phrase</td><td>A random sequence of words which can be used to restore a lost wallet.</td></tr><tr><td>Sharding</td><td>A type of database partitioning that separates very large databases the into smaller, faster, more easily managed parts called data shards. Sharding can potentially be used to improve blockchain performance</td></tr><tr><td>Sidechain</td><td>A discrete blockchain that is linked to a main blockchain via two-way pegs which enable assets to be interchanged between the main blockchain and the sidechain. Sidechains are a method to enable scaling and increase transaction speed by only
+                performing necessary transactions on the main blockchain.</td></tr><tr><td>Smart Contract</td><td>Self-executing computer code deployed on a blockchain to perform a function, often, but not always, the exchange of value between a buyer and a seller.</td></tr><tr><td>Solidity</td><td>A JavaScript-like object-oriented programming language for Ethereum for implementing smart contracts on the Ethereum blockchain.</td></tr><tr><td>Stablecoin</td><td>A cryptocurrency which is underwritten by an asset or assets (e.g., fiat currency, commodities, etc.) designed to minimize the volatility of the price of the coin/token.</td></tr><tr><td>State Channel</td><td>A process by which blockchain transactions are executed off-chain, collected and then written to the main chain as a single transaction in order to improve performance and reduce cost.</td></tr><tr><td>Testnet</td><td>A staging blockchain environment for testing application before being put into production (or onto the mainnet)</td></tr><tr><td>Token</td><td>Cryptographic tokens represent programmable assets or access rights, managed by a smart contract and an underlying distributed ledger. They are accessible only by the person who has the private key for that address and can only be signed using
+                this private key.</td></tr><tr><td>Token Generation Event</td><td>The creation and first sale of a blockchain coin or token.</td></tr><tr><td>Token Type - ERC-20</td><td>A type of fungible Ethereum token (i.e., smart contract) standard which is defined by a series of functions that must be supported, including functions to retrieve the total supply, transfer from one wallet to another, and approve a transaction.
+                Typically, any given ERC-20 token has many copies which are held in a variety of crypto wallets.</td></tr><tr><td>Token Type - ERC-721</td><td>A type of non-fungible Ethereum token (i.e., smart contract) standard which is defined by a series of functions that must be supported, including functions to retrieve the total supply, transfer from one wallet to another, and approve a transaction.
+                Each ERC-721 token is unique and non-interchangeable with other tokens (i.e., non-fungible).</td></tr><tr><td>Token/Coin Exchange</td><td>An application to buy, sell and trade cryptocurrencies.</td></tr><tr><td>Tokenless Ledger</td><td>A ledger that doesn't require a native currency to operate.</td></tr><tr><td>Tokenomics</td><td>The study, design and implementation of monetary management and distribution based on blockchain technology.</td></tr><tr><td>Transactions Per Second (TPS)</td><td>A measurement of the speed of a blockchain. The low TPS of most blockchains is a significant barrier to using blockchain for business, especially financial, applications.</td></tr><tr><td>Transparency</td><td>A primary property of public blockchains whereby any participant in a system or transaction can view the transactions on the blockchain.</td></tr><tr><td>Trust</td><td>Confidence in the integrity of an entity (e.g., person, organization, etc.).</td></tr><tr><td>Trustless</td><td>The elimination of trust from a transaction. Blockchain is called a trustless system because the two entities performing a transaction do not need to trust one another. The properties of blockchain - digital signatures, cryptography, etc.
+                - provide the trust.</td></tr><tr><td>Vyper</td><td>A Python-like programming language for the Ethereum blockchain built for security, language and compiler simplicity, and auditability.</td></tr><tr><td>Wallet</td><td>A digital file that holds coins and tokens held by the owner. The wallet also has a blockchain address to which transactions can be sent.</td></tr><tr><td>Wallet (Cold)</td><td>A wallet disconnected from the internet.</td></tr><tr><td>Wallet (Hot)</td><td>A wallet connected to the Internet.</td></tr><tr><td>Wallet (Multisignature)</td><td>A wallet that requires multiple digital signatures to execute a transaction.</td></tr><tr><td>Zeppelin/Open Zeppelin</td><td>A community of like-minded Smart Contract developers.</td></tr></tbody></table><br><p><i><b>Read more about</b> <a style='text-transform: capitalize;' onclick="gtag('event', 'Clicked Resource Hub Tag', { 'event_category': 'Resource Hub Tag', 'event_label': 'Technology Solutions' });" href="/resources/technology-solutions">Technology Solutions</a>.</i></p> </div> <div class="col-md-3" id="SidebarResource"> <div id="catcher"></div> <div id="sticky"> 
+
+<div >
+    <div ><div class="addthis_inline_share_toolbox"></div></div>    
+    
+</div><p><b>Tags : </b> <a style='text-transform: capitalize;' onclick="gtag('event', 'Clicked Resource Hub Tag', { 'event_category': 'Resource Hub Tag', 'event_label': 'Technology Solutions' });" href="/resources/technology-solutions">Technology Solutions</a></p>
+<h3>Join the Blockchain Technology Interest Group.</h3><p>The Blockchain Technology Interest Group is your destination for online discussions, resources, and networking with individuals and businesses dedicated to blockchain technology.&nbsp;<a href="https://connect.comptia.org/connect/technology-interest-groups/blockchain-technology-interest-group?utm_source=content&amp;utm_medium=CTA&amp;utm_campaign=Blockchain_Terminology">Get access to a dedicated online forum when you join now for free</a>.</p><script>
+      function RecordActivity(Title, Tags, Permissions, AccessType) {
+          if (AccessType.toLowerCase() == "pdfwithlogo") {
+              gtag('event', 'Document Download With Logo', { 'event_category': 'Resource Download', 'event_label': Title });
+          }
+          else if (AccessType.toLowerCase() == "pdf") {
+              gtag('event', 'Document Download', { 'event_category': 'Resource Download', 'event_label': Title });
+          }
+          else {
+              gtag('event', 'Viewed HTML', { 'event_category': 'Resource Download', 'event_label': Title });
+          }
+
+        $.ajax({
+            type: 'POST',
+            url: '/content/articles/blockchain-terminology/ajaxrecordactivity/',
+            dataType: 'json',
+            data: { title: Title, tags: Tags, permissions: Permissions },
+            success: function (data) {
+
+            },
+            error: function (ex) {
+                console.log('Failed : ' + ex);
+            }
+        });
+    }
+
+    function downloadPdfWithLogo(ID) {
+        $.featherlight("<p></p>");
+        $('.featherlight-inner').html("<h2>Loading...</h2>");
+        $.ajax({
+            type: 'POST',
+            url: '/content/articles/blockchain-terminology/getdownloadpdfform/',
+            dataType: 'html',
+            data: { ID: ID },
+            success: function (data) {
+                $('.featherlight-inner').html(data);
+            },
+            error: function (ex) {
+                console.log('Failed : ' + ex);
+            }
+        });
+    }
+
+    //Update Image when Uploaded
+    function ShowImagePreview(input) {
+        if (input.files && input.files[0]) {
+            $('#imgLogo').css('display', 'inline');
+            var reader = new FileReader();
+            reader.onload = function (e) {
+                $('#imgLogo').prop('src', e.target.result)
+                    .width(200);
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+
+</script>
+
+    <script>
+            //Run track script if just accessing/loading page
+            RecordActivity('Blockchain Terminology : A Glossary for Beginners', 'Blockchain Advisory Council | Technology Solutions | Blockchain', 'Public', '')
+    </script>
+
+
+    <div class="sidebarSection download">
+        <h2>Download Document</h2>
+        <div class="content">
+            <div id="TableOfContentsLinks_C066_divDownloadLink">
+                <a target="_blank" href="https://comptiacdn.azureedge.net/webcontent/docs/default-source/research-reports/07576-blockchain-glossary-of-terms-r3.pdf?sfvrsn=7df7462a_0" onclick="RecordActivity('Blockchain Terminology : A Glossary for Beginners', 'Blockchain Advisory Council | Technology Solutions | Blockchain', 'Public', 'pdf')" title="Download Full PDF Report">
+                    <img src="https://comptiawebsite.blob.core.windows.net/webcontent/images/default-source/researchreports/pdf1.png" style="position:relative;top:-3px;">Download Full PDF
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+ </div> </div> </div> </div> </section> 
+ <section class="body-container white"> <div class="container"> <div class="row"> <div class="col-md-9"> 
+ </div> <div class="col-md-3"> 
+ </div> </div> </div> </section> <section class="highlights-container"> <div class="container"> 
+ </div> </section> <section class="footer-container" id="footer"> <footer class="container"> 
+
+<div >
+    <div ><footer class="footer">
+<div class="row">
+
+<div class="col-md-3">
+<img src="https://comptiacdn.azureedge.net/webcontent/images/default-source/mainsitetemplateimages/comptia-logo.png?sfvrsn=30cdad27_2" alt="comptia-logo" title="comptia-logo" data-displaymode="Original">&nbsp;
+<ul><li><a href="/about-us">About Us</a></li>
+<li><a href="08041c2e-f265-4cec-8870-e6ec0a61e428">Newsroom</a></li>
+<li><a href="/contact-us">Contact Us</a></li>
+<li><a href="/blog">Blog</a></li></ul>
+
+<ul class="social">
+
+
+   
+<li><a href="https://twitter.com/CompTIAConnect"><i style="font-size: 1.2em" class="fa-brands fa-twitter"></i></a><br></li>
+    
+<li><a href="https://www.linkedin.com/groups/83900/"><i style="font-size: 1.2em" class="fa-brands fa-linkedin-in"></i></a><br></li>
+
+    
+
+<li><a href="https://www.youtube.com/CompTIAConnect"><i style="font-size: 1.2em" class="fa-brands fa-youtube"></i></a><br></li>
+
+
+<li><a href="https://www.instagram.com/CompTIACommunity/"><i style="font-size: 1.2em" class="fa-brands fa-square-instagram"></i></a><br></li>
+
+
+
+<li><a href="https://www.facebook.com/CompTIACommunity/ "><i style="font-size: 1.2em" class="fa-brands fa-facebook"></i></a><br></li>
+
+</ul>
+
+</div>
+
+<div class="col-md-3">
+<h3>Certification</h3>
+<ul>
+    <li><a href="https://www.comptia.org/certifications">CompTIA IT Certifications</a></li>
+
+    <li><a href="https://store.comptia.org/">Store</a></li>
+    
+    <li><a href="https://www.certmetrics.com/comptia/login.aspx">Certification Login</a></li>
+<li><a href="https://www.comptiatech.org/">CompTIA Tech Career Academy</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+<h3>Association</h3>
+<ul>
+    <li><a href="/home">CompTIA – The IT Industry Association</a></li>
+    
+</ul>
+
+<h3>Philanthropy</h3>
+<ul>
+    <li><a href="https://www.comptiaspark.org/">CompTIA Spark</a></li>
+</ul>
+</div>
+<div class="col-md-3">
+
+
+<h3>Partners</h3>
+<ul>
+    <li><a href="https://partners.comptia.org/">CompTIA Authorized Partner Program</a></li>
+</ul>
+</div>
+
+</div>
+</footer></div>    
+    
+</div> </footer> </section> <section class="copyright-container"> <div class="container copyright-content"> 
+
+<div >
+    <div ><ul>
+    <li>Copyright © CompTIA, Inc. All Rights Reserved</li>
+    <li><a href="/sitemap">Sitemap</a></li>
+    <li><a href="https://www.comptia.org/legal">Legal</a></li>
+</ul></div>    
+    
+</div> </div> </section> <script src="/resourcepackages/mainsite/assets/dist/js/initialize.min.js?v=3.4.9" type="text/javascript"></script><script type="text/javascript" src="/WebResource.axd?d=NjxTqR2bqTw1rewxxlkHPubjZy05NEOaKaMLHW4Lo32JlaoXFWJWQ76gpu7rAFqs7j_NRtPGHELptxKNcYRgcW7OGBxy-XnAT4LWmqos2vXIQw0HFjI9dJRsIpI5cPTAXYQcJQJ-Pp3o7rLaWXccaUiLnvQOQH2V4P5VWa3JeRRyPS_CM4VssLHlWRIAKxx6Y1V5c066Qqdi90--l3eSSkDGbkQ1&amp;t=637412406540000000">
+
+</script> <div id="dPCA2Xv2ViMzSahA85lfNNpqlep_9M6Prbp8xqs7K6q8"></div><script src="https://mktdplp102cdn.azureedge.net/public/latest/js/ws-tracking.js?v=1.80.2009.0"></script><div style="display:none" data-website-id="PCA2Xv2ViMzSahA85lfNNpqlep_9M6Prbp8xqs7K6q8" data-hostname="4fb516e0ad974eb7b7d929125dbdc1ff.svc.dynamics.com"></div> </body> </html>
