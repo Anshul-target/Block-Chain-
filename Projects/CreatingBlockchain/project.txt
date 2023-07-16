@@ -1,0 +1,16 @@
+WE WIIL USE JAVASCRIPT TO CODE THE STRUCTURE OF BLOCK
+THAT IS 
+TIMESTAMP:
+DATA:
+PREV HASH:
+HASH:
+
+then we will add more BLOCK
+
+
+FOLDER STRUCTURE
+
+block.js =>A class that contain everything present in block
+config.js => Genesis block
+crypto-hash.js => TO GENERATE A HASH OF DATA PREV-HASH AND TIMESTAMP
+blockchain.js=>To create a blockchain;

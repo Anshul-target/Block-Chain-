@@ -14,7 +14,7 @@ const ethers = require("ethers");
 // WE WILL USE INFURA
 
 
-const provider = new ethers.providers.JsonRpcProvider(`https://mainnet.infura.io/v3/73ba6adc7d134fab9b249c3a1069612a`);
+const provider = new ethers.providers.JsonRpcProvider(`https://sepolia.infura.io/v3/73ba6adc7d134fab9b249c3a1069612a`);
 const querryBlockchain = async () => {
     const block = await provider.getBlockNumber();
 
