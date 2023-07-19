@@ -1,12 +1,13 @@
 const cryptoHash = require("./crypto-hash")
 const { GENESIS_DATA } = require("./config")
 class Block {
-    constructor({ timestamp, prevHash, hash, data }) {
+    constructor({ timestamp, prevHash, hash, data, nonce, difficulty }) {
         this.timestamp = timestamp;
         this.prevHash = prevHash;
         this.hash = hash;
         this.data = data;
-
+        this.nonce = nonce;
+        this.difficulty = difficulty;
     }
     static genesis() {
         return new this(GENESIS_DATA);
